@@ -7,7 +7,7 @@ However, it is noteoworthy that since the 12th of march, the main method and pac
 
 # Repository organization
 ## Analysis_scripts
-Currently, all it contains is a jupyter notebook of the derivation of a more computationally efficient formula for updating the kmer distance as the window iterates in KmerGMA. Unfortunately, even though the derved formula is indeed more efficient theoretically, it barely gave any performance inprovement in the practical implementation. 
+- `Kmer_dist_update_formula.ipynb`: a jupyter notebook of the derivation of a more computationally efficient formula for updating the kmer distance as the window iterates in KmerGMA. The improved formula's running speed was also benchmarked and seems to be about2.8 times and saves more memory. This is a new discovery since the report was sent in.
 
 ## Sequences
 - `88_Alpaca_reference_V_genes.fasta`: the 88 alpaca references sequences used in the report.
