@@ -1,5 +1,7 @@
 # KmerGMA-suppplemental-material
-Repository for analysis scripts, data, and general supplemental information for Utställningen Ungaforskare finals 2023.
+Repository for analysis scripts, data, and general supplemental information for Utställningen Ungaforskare (Swedish ntional highschool science fair) finals 2023. 
+
+The project presentation can be found at: https://projectboard.world/project/kmergma-jl-homology-searching-for-germline-immunoglobulin-alleles-with-kmers
 
 The repository is incomplete and will be updated very soon with more data and analysis scripts.
 
@@ -14,4 +16,4 @@ However, it is noteoworthy that since the 12th of march, the main method and pac
 - `Novel_Alpaca_PseudoVgenes.fasta`: Two novel V genes discovered in the VicPac 3.2 Alpaca full coverage genome assembly. The fasta identifiers indicate the contig id of where the hit was found, followed by a kmer distance `Dist` to one of the RVs formed by RS subsets, indicated by `KFV = x`. `MatchPos` is a unitrange showing the location of the hit within the contig, `GenomePos` is the cumulative number of basepairs before the contig, and `Len` is the length of the aligned hit. 
 
 ## Miscallaneous
-Currently just contains a jupyter notebook I used to generate the animations that were used in my presentation video
+- `Method_animation.ipynb`: Code I used to generate the animations that were used in my presentation video
