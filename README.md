@@ -7,10 +7,11 @@ However, it is noteoworthy that since the 12th of march, the main method and pac
 
 # Repository organization
 ## Analysis_scripts
-Currently, all it contains is a jupyter notebook of the derivation of a more computationally efficient formula for updating the kmer distance as the window iterates in KmerGMA. Unfortunately, even though the dervied formula is indeed more efficient theoretically, it barely gave any performance input in the practical implementation. 
+Currently, all it contains is a jupyter notebook of the derivation of a more computationally efficient formula for updating the kmer distance as the window iterates in KmerGMA. Unfortunately, even though the derved formula is indeed more efficient theoretically, it barely gave any performance inprovement in the practical implementation. 
 
 ## Sequences
-Currently just contains the 88 alpaca references sequences used in the report.
+- `88_Alpaca_reference_V_genes.fasta`: the 88 alpaca references sequences used in the report.
+- `Novel_Alpaca_PseudoVgenes.fasta`: Two novel V genes discovered in the VicPac 3.2 Alpaca full coverage genome assembly. The fasta identifiers indicate the contig id of where the hit was found, followed by a kmer distance `Dist` to one of the RVs formed by RS subsets, indicated by `KFV = x`. `MatchPos` is a unitrange showing the location of the hit within the contig, `GenomePos` is the cumulative number of basepairs before the contig, and `Len` is the length of the aligned hit. 
 
 ## Miscallaneous
 Currently just contains a jupyter notebook I used to generate the animations that were used in my presentation video
